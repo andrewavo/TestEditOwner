@@ -97,14 +97,14 @@ namespace TestEditOwner
         [HttpGet]
         public IActionResult List()
         {
-            return View("Result", GetSummaryList());
+            return View("~/Result.cshtml", GetSummaryList());
         }
 
         [Route("EditOwner/Change")]
         public IActionResult Change()
         {
             MakeChange();
-            return View("Result", GetSummaryList());
+            return View("~/Result.cshtml", GetSummaryList());
         }
     }
 }

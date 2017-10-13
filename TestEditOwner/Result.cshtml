@@ -1,10 +1,8 @@
 ﻿@using TestEditOwner;
 @model List<SummaryResult>;
-
 @{
     ViewData["Title"] = "Result";
 }
-
 <table>
     <tr>
         <th>Номер</th>
@@ -12,7 +10,7 @@
         <th>Тип лица</th>
         <th>Владелец</th>
     </tr>
-    @foreach(var sr in Model )
+    @foreach (var sr in Model)
     {
         <tr>
             <td>@sr.AccountNumber</td>
@@ -24,7 +22,5 @@
 </table>
 <br />
 <div>
-    @Html.ActionLink("Поменять","Change")
+    @Html.ActionLink("Поменять", "Change")
 </div>
-
-
