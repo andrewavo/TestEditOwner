@@ -1,0 +1,30 @@
+﻿@using TestEditOwner;
+@model List<SummaryResult>;
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<table>
+    <tr>
+        <th>Номер</th>
+        <th>Остаток</th>
+        <th>Тип лица</th>
+        <th>Владелец</th>
+    </tr>
+    @foreach(var sr in Model )
+    {
+        <tr>
+            <td>@sr.AccountNumber</td>
+            <td>@sr.Balance</td>
+            <td>@sr.OrgType</td>
+            <td>@sr.Owner</td>
+        </tr>
+    }
+</table>
+<br />
+<div>
+    @Html.ActionLink("Поменять","Change")
+</div>
+
+

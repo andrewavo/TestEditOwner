@@ -1,0 +1,7 @@
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\bin\Debug\TestEditOwner.Data.dacpac
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\Model.xml
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\refactor.xml
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\postdeploy.sql
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\predeploy.sql
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\TestEditOwner.Data.dll
+C:\Users\nmerk\source\repos\TestEditOwner\TestEditOwner.Data\obj\Debug\TestEditOwner.Data.pdb
